@@ -1,0 +1,40 @@
+body {
+    font-family: Georgia, "Times New Roman", serif;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+}
+
+header,
+footer {
+    padding: 1rem 1.5rem;
+    background-color: #f0f0f0;
+}
+
+main {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 1.5rem;
+}
+
+footer {
+    margin-top: 2rem;
+    font-size: 0.9rem;
+}
+
+.book-hero {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 1.5rem;
+}
+
+.book-cover img {
+    display: block;
+    max-width: 200px;
+    height: auto;
+}
+
+.book-info {
+    flex: 1;
+}
