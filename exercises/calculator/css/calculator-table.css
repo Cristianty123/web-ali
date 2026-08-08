@@ -1,0 +1,47 @@
+main {
+    width: 340px;
+    padding: 28px;
+    box-sizing: border-box;
+}
+
+.display {
+    width: 100%;
+    height: 90px;
+    box-sizing: border-box;
+    padding: 0 20px;
+    margin: 0 0 24px 0;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    font-size: 2.2rem;
+}
+
+.keypad {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 12px;
+    table-layout: fixed;
+}
+
+.keypad td {
+    width: 25%;
+    height: 62px;
+    padding: 0;
+    position: relative;
+    box-sizing: border-box;
+}
+
+.btn {
+    width: 100%;
+    height: 100%;
+}
+
+/* El "+" se estira hacia abajo aprovechando que la fila 5
+   no tiene una 4ª celda (ver explicación en el paso 5) */
+.btn-plus {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: calc(200% + 12px);
+    z-index: 1;
+}
