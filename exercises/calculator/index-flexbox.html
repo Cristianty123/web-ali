@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Calculator</title>
-    <link href="css/calculator-table.css" rel="stylesheet">
+    <link href="css/calculator-flexbox.css" rel="stylesheet">
     <link href="css/calculator-base.css" rel="stylesheet">
 </head>
 <body>
@@ -12,41 +12,44 @@
 <main>
     <div id="display" class="display" aria-live="polite">0</div>
 
-    <table class="keypad">
-        <tr>
-            <td><button type="button" class="btn btn-action" data-action="clear-all">AC</button></td>
-            <td><button type="button" class="btn btn-action" data-action="clear entry">CE</button></td>
-            <td><button type="button" class="btn btn-operator" data-action="percent" aria-label="Porcentaje">%</button></td>
-            <td><button type="button" class="btn btn-operator" data-action="operator" data-value="/" aria-label="Dividir">÷</button></td>
-        </tr>
+    <div class="keypad">
+        <div class="keypad-row">
+            <button type="button" class="btn btn-action" data-action="clear-all">AC</button>
+            <button type="button" class="btn btn-action" data-action="clear entry">CE</button>
+            <button type="button" class="btn btn-operator" data-action="percent" aria-label="Porcentaje">%</button>
+            <button type="button" class="btn btn-operator" data-action="operator" data-value="/" aria-label="Dividir">÷</button>
+        </div>
 
-        <tr>
-            <td><button type="button" class="btn btn-digit" data-action="digit" data-value="7">7</button></td>
-            <td><button type="button" class="btn btn-digit" data-action="digit" data-value="8">8</button></td>
-            <td><button type="button" class="btn btn-digit" data-action="digit" data-value="9">9</button></td>
-            <td><button type="button" class="btn btn-operator" data-action="operator" data-value="*" aria-label="Multiplicar">x</button></td>
-        </tr>
+        <div class="keypad-row">
+            <button type="button" class="btn btn-digit" data-action="digit" data-value="7">7</button>
+            <button type="button" class="btn btn-digit" data-action="digit" data-value="8">8</button>
+            <button type="button" class="btn btn-digit" data-action="digit" data-value="9">9</button>
+            <button type="button" class="btn btn-operator" data-action="operator" data-value="*" aria-label="Multiplicar">x</button>
+        </div>
 
-        <tr>
-            <td><button type="button" class="btn btn-digit" data-action="digit" data-value="4">4</button></td>
-            <td><button type="button" class="btn btn-digit" data-action="digit" data-value="5">5</button></td>
-            <td><button type="button" class="btn btn-digit" data-action="digit" data-value="6">6</button></td>
-            <td><button type="button" class="btn btn-operator" data-action="operator" data-value="-" aria-label="Restar">−</button></td>
-        </tr>
+        <div class="keypad-row">
+            <button type="button" class="btn btn-digit" data-action="digit" data-value="4">4</button>
+            <button type="button" class="btn btn-digit" data-action="digit" data-value="5">5</button>
+            <button type="button" class="btn btn-digit" data-action="digit" data-value="6">6</button>
+            <button type="button" class="btn btn-operator" data-action="operator" data-value="-" aria-label="Restar">−</button>
+        </div>
 
-        <tr>
-            <td><button type="button" class="btn btn-digit" data-action="digit" data-value="1">1</button></td>
-            <td><button type="button" class="btn btn-digit" data-action="digit" data-value="2">2</button></td>
-            <td><button type="button" class="btn btn-digit" data-action="digit" data-value="3">3</button></td>
-            <td><button type="button" class="btn btn-operator btn-plus" data-action="operator" data-value="+" aria-label="Sumar">+</button></td>
-        </tr>
-
-        <tr>
-            <td><button type="button" class="btn btn-digit" data-action="digit" data-value="0">0</button></td>
-            <td><button type="button" class="btn btn-digit" data-action="decimal" data-value=".">.</button></td>
-            <td><button type="button" class="btn btn-equals" data-action="equals" aria-label="Igual">=</button></td>
-        </tr>
-    </table>
+        <div class="keypad-bottom">
+            <div class="keypad-bottom-left">
+                <div class="keypad-row">
+                    <button type="button" class="btn btn-digit" data-action="digit" data-value="1">1</button>
+                    <button type="button" class="btn btn-digit" data-action="digit" data-value="2">2</button>
+                    <button type="button" class="btn btn-digit" data-action="digit" data-value="3">3</button>
+                </div>
+                <div class="keypad-row">
+                    <button type="button" class="btn btn-digit" data-action="digit" data-value="0">0</button>
+                    <button type="button" class="btn btn-digit" data-action="decimal" data-value=".">.</button>
+                    <button type="button" class="btn btn-equals" data-action="equals" aria-label="Igual">=</button>
+                </div>
+            </div>
+            <button type="button" class="btn btn-operator btn-plus" data-action="operator" data-value="+" aria-label="Sumar">+</button>
+        </div>
+    </div>
 </main>
 
 <footer>
