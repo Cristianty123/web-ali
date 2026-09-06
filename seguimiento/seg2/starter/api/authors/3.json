@@ -1,0 +1,31 @@
+{
+  "id": 3,
+  "name": "Martin Fowler",
+  "photo": "imagenes/authors/fowler.svg",
+  "photoAlt": "Retrato de marcador de Martin Fowler",
+  "bio": "Autor de un catálogo de transformaciones para mejorar código existente sin cambiar su comportamiento observable. El enfoque se usa en equipos que heredan sistemas grandes.",
+  "topics": "Escribe sobre refactoring, patrones en aplicaciones empresariales y formas breves de comunicar diseño, incluido UML.",
+  "books": [
+    {
+      "id": 3,
+      "title": "Refactoring",
+      "cover": "imagenes/books/refactoring.svg",
+      "coverAlt": "Portada de marcador de Refactoring",
+      "synopsis": "Catálogo de refactorizaciones con motivación, mecánica y ejemplos. Sirve para mejorar el diseño interno sin alterar el resultado que ve el usuario."
+    },
+    {
+      "id": 7,
+      "title": "Patterns of Enterprise Application Architecture",
+      "cover": "imagenes/books/poeaa.svg",
+      "coverAlt": "Portada de marcador de Patterns of Enterprise Application Architecture",
+      "synopsis": "Catálogo de patrones para aplicaciones empresariales (capa de datos, lógica de dominio, presentación). Se usa como mapa de opciones, no como receta única."
+    },
+    {
+      "id": 8,
+      "title": "UML Distilled",
+      "cover": "imagenes/books/uml-distilled.svg",
+      "coverAlt": "Portada de marcador de UML Distilled",
+      "synopsis": "Introducción breve a UML: qué diagramas valen la pena y cómo usarlos para comunicar diseño. No es un manual exhaustivo del lenguaje."
+    }
+  ]
+}

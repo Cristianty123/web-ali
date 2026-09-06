@@ -1,0 +1,17 @@
+{
+  "id": 2,
+  "name": "Marijn Haverbeke",
+  "photo": "imagenes/authors/haverbeke.svg",
+  "photoAlt": "Retrato de marcador de Marijn Haverbeke",
+  "bio": "Autor de un texto introductorio a JavaScript que combina explicación del lenguaje con programas de ejemplo. El libro está disponible en papel y como edición de acceso abierto.",
+  "topics": "Escribe sobre el lenguaje JavaScript, la programación en el navegador y el aprendizaje con programas de ejemplo.",
+  "books": [
+    {
+      "id": 2,
+      "title": "Eloquent JavaScript",
+      "cover": "imagenes/books/eloquent-javascript.svg",
+      "coverAlt": "Portada de marcador de Eloquent JavaScript",
+      "synopsis": "Introducción al lenguaje JavaScript con capítulos sobre valores, funciones, objetos y el navegador. Incluye proyectos guiados y una edición de acceso abierto."
+    }
+  ]
+}

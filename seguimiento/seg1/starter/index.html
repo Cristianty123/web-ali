@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>UPB Bookstore - Lista de deseos</title>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <h1>UPB Bookstore</h1>
+      <p class="tagline">Lista de deseos: <span id="wishlist-count">0</span></p>
+    </header>
+
+    <main>
+      <section id="catalog" class="catalog" aria-label="Libros">
+        <article class="book-card" data-id="1">
+          <h3>Clean Code</h3>
+          <p class="author">Robert C. Martin</p>
+          <button type="button" class="add-wish">+ Añadir a mi lista de deseos</button>
+        </article>
+        <article class="book-card" data-id="2">
+          <h3>Eloquent JavaScript</h3>
+          <p class="author">Marijn Haverbeke</p>
+          <button type="button" class="add-wish">+ Añadir a mi lista de deseos</button>
+        </article>
+        <article class="book-card" data-id="3">
+          <h3>Refactoring</h3>
+          <p class="author">Martin Fowler</p>
+          <button type="button" class="add-wish">+ Añadir a mi lista de deseos</button>
+        </article>
+        <article class="book-card" data-id="4">
+          <h3>The Pragmatic Programmer</h3>
+          <p class="author">David Thomas, Andrew Hunt</p>
+          <button type="button" class="add-wish">+ Añadir a mi lista de deseos</button>
+        </article>
+        <article class="book-card" data-id="5">
+          <h3>Designing Data-Intensive Applications</h3>
+          <p class="author">Martin Kleppmann</p>
+          <button type="button" class="add-wish">+ Añadir a mi lista de deseos</button>
+        </article>
+        <article class="book-card" data-id="6">
+          <h3>JavaScript: The Good Parts</h3>
+          <p class="author">Douglas Crockford</p>
+          <button type="button" class="add-wish">+ Añadir a mi lista de deseos</button>
+        </article>
+        <article class="book-card" data-id="7">
+          <h3>RESTful Web APIs</h3>
+          <p class="author">Leonard Richardson, Mike Amundsen</p>
+          <button type="button" class="add-wish">+ Añadir a mi lista de deseos</button>
+        </article>
+        <article class="book-card" data-id="8">
+          <h3>Don't Make Me Think</h3>
+          <p class="author">Steve Krug</p>
+          <button type="button" class="add-wish">+ Añadir a mi lista de deseos</button>
+        </article>
+      </section>
+
+      <section class="wishlist-panel" aria-label="Lista de deseos">
+        <h2>Mi lista de deseos</h2>
+        <ul id="wishlist" class="wishlist"></ul>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>Seg1 - Desarrollo de aplicaciones web</p>
+    </footer>
+
+    <script type="module" src="js/app.js"></script>
+  </body>
+</html>

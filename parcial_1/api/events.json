@@ -1,0 +1,34 @@
+{
+  "events": [
+    {
+      "id": 1,
+      "date": "2026-09-05",
+      "title": "Lanzamiento: Clean Code",
+      "type": "lanzamiento"
+    },
+    {
+      "id": 2,
+      "date": "2026-09-12",
+      "title": "Club de lectura: Eloquent JavaScript",
+      "type": "club"
+    },
+    {
+      "id": 3,
+      "date": "2026-09-18",
+      "title": "Firma de autor: Martin Fowler",
+      "type": "firma"
+    },
+    {
+      "id": 4,
+      "date": "2026-09-22",
+      "title": "Lanzamiento: Refactoring",
+      "type": "lanzamiento"
+    },
+    {
+      "id": 5,
+      "date": "2026-09-28",
+      "title": "Club de lectura: Don't Make Me Think",
+      "type": "club"
+    }
+  ]
+}

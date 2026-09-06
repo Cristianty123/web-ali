@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="160" height="220" viewBox="0 0 160 220">
+  <rect width="160" height="220" fill="#f60651"/>
+  <text x="80" y="100" text-anchor="middle" fill="#ffffff" font-family="Segoe UI, Arial, sans-serif" font-size="14">Eloquent</text>
+  <text x="80" y="124" text-anchor="middle" fill="#ffffff" font-family="Segoe UI, Arial, sans-serif" font-size="14">JavaScript</text>
+</svg>

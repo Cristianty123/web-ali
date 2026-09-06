@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>UPB Bookstore - Calendario de eventos</title>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <h1>UPB Bookstore</h1>
+      <p class="tagline">Septiembre 2026</p>
+      <div class="view-toggle">
+        <button type="button" id="btn-calendar">Calendario</button>
+        <button type="button" id="btn-agenda">Agenda</button>
+      </div>
+    </header>
+
+    <main>
+      <section id="status" class="status" aria-live="polite"></section>
+
+      <div id="event-form" class="event-form">
+        <label>Fecha <input id="event-date" type="date" min="2026-09-01" max="2026-09-30" /></label>
+        <label>Título <input id="event-title" type="text" /></label>
+        <label>Tipo
+          <select id="event-type">
+            <option value="lanzamiento">lanzamiento</option>
+            <option value="club">club</option>
+            <option value="firma">firma</option>
+          </select>
+        </label>
+        <button type="button" id="add-event">Agregar evento</button>
+      </div>
+      <section id="calendar" class="calendar" aria-label="Calendario septiembre 2026">
+        <div class="weekday">Lun</div>
+        <div class="weekday">Mar</div>
+        <div class="weekday">Mié</div>
+        <div class="weekday">Jue</div>
+        <div class="weekday">Vie</div>
+        <div class="weekday">Sáb</div>
+        <div class="weekday">Dom</div>
+        <div class="day-cell empty"></div>
+        <article class="day-cell" data-day="1"><span class="day-num">1</span></article>
+        <article class="day-cell" data-day="2"><span class="day-num">2</span></article>
+        <article class="day-cell" data-day="3"><span class="day-num">3</span></article>
+        <article class="day-cell" data-day="4"><span class="day-num">4</span></article>
+        <article class="day-cell" data-day="5"><span class="day-num">5</span></article>
+        <article class="day-cell" data-day="6"><span class="day-num">6</span></article>
+        <article class="day-cell" data-day="7"><span class="day-num">7</span></article>
+        <article class="day-cell" data-day="8"><span class="day-num">8</span></article>
+        <article class="day-cell" data-day="9"><span class="day-num">9</span></article>
+        <article class="day-cell" data-day="10"><span class="day-num">10</span></article>
+        <article class="day-cell" data-day="11"><span class="day-num">11</span></article>
+        <article class="day-cell" data-day="12"><span class="day-num">12</span></article>
+        <article class="day-cell" data-day="13"><span class="day-num">13</span></article>
+        <article class="day-cell" data-day="14"><span class="day-num">14</span></article>
+        <article class="day-cell" data-day="15"><span class="day-num">15</span></article>
+        <article class="day-cell" data-day="16"><span class="day-num">16</span></article>
+        <article class="day-cell" data-day="17"><span class="day-num">17</span></article>
+        <article class="day-cell" data-day="18"><span class="day-num">18</span></article>
+        <article class="day-cell" data-day="19"><span class="day-num">19</span></article>
+        <article class="day-cell" data-day="20"><span class="day-num">20</span></article>
+        <article class="day-cell" data-day="21"><span class="day-num">21</span></article>
+        <article class="day-cell" data-day="22"><span class="day-num">22</span></article>
+        <article class="day-cell" data-day="23"><span class="day-num">23</span></article>
+        <article class="day-cell" data-day="24"><span class="day-num">24</span></article>
+        <article class="day-cell" data-day="25"><span class="day-num">25</span></article>
+        <article class="day-cell" data-day="26"><span class="day-num">26</span></article>
+        <article class="day-cell" data-day="27"><span class="day-num">27</span></article>
+        <article class="day-cell" data-day="28"><span class="day-num">28</span></article>
+        <article class="day-cell" data-day="29"><span class="day-num">29</span></article>
+        <article class="day-cell" data-day="30"><span class="day-num">30</span></article>
+        <div class="day-cell empty"></div>
+        <div class="day-cell empty"></div>
+        <div class="day-cell empty"></div>
+        <div class="day-cell empty"></div>
+      </section>
+
+      <ul id="agenda" class="agenda hidden" aria-label="Agenda de eventos"></ul>
+
+      <aside id="event-detail" class="event-detail hidden" aria-label="Detalle del evento">
+        <h2 id="detail-title"></h2>
+        <p id="detail-date"></p>
+        <p id="detail-type"></p>
+        <button type="button" id="remove-event">Quitar evento</button>
+        <button type="button" id="close-detail">Cerrar</button>
+      </aside>
+    </main>
+
+    <footer class="site-footer">
+      <p>Exam1 - Desarrollo de aplicaciones web</p>
+    </footer>
+
+    <script type="module" src="js/app.js"></script>
+  </body>
+</html>

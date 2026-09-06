@@ -1,0 +1,31 @@
+{
+  "id": 1,
+  "name": "Robert C. Martin",
+  "photo": "imagenes/authors/martin.svg",
+  "photoAlt": "Retrato de marcador de Robert C. Martin",
+  "bio": "Autor de textos sobre diseño y profesionalismo en software. Sus libros se usan en cursos de ingeniería para discutir nombres, funciones y código que se pueda leer meses después.",
+  "topics": "Escribe con frecuencia sobre código limpio, el oficio del programador y una arquitectura donde las reglas de negocio no dependen de la interfaz ni de la base de datos.",
+  "books": [
+    {
+      "id": 1,
+      "title": "Clean Code",
+      "cover": "imagenes/books/clean-code.svg",
+      "coverAlt": "Portada de marcador de Clean Code",
+      "synopsis": "Libro sobre prácticas para escribir código legible y mantenible. Enfatiza nombres claros, funciones pequeñas y diseño simple. Sirve como referencia común en cursos de ingeniería de software."
+    },
+    {
+      "id": 5,
+      "title": "The Clean Coder",
+      "cover": "imagenes/books/the-clean-coder.svg",
+      "coverAlt": "Portada de marcador de The Clean Coder",
+      "synopsis": "Texto sobre conducta profesional en software: compromisos, práctica y relación con el equipo y con quien encarga el trabajo. Complementa Clean Code, que se centra en el código."
+    },
+    {
+      "id": 6,
+      "title": "Clean Architecture",
+      "cover": "imagenes/books/clean-architecture.svg",
+      "coverAlt": "Portada de marcador de Clean Architecture",
+      "synopsis": "Reglas de diseño para separar políticas de detalle (interfaz, base de datos, frameworks). El núcleo de la aplicación no debe depender de esas piezas."
+    }
+  ]
+}

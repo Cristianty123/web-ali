@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="200" viewBox="0 0 200 200">
+  <rect x="8" y="8" width="184" height="184" rx="28" ry="28" fill="#FDBA74"/>
+  <text x="100" y="96" text-anchor="middle" fill="#1f2933" font-family="Segoe UI, Arial, sans-serif" font-size="16">Martin</text>
+  <text x="100" y="122" text-anchor="middle" fill="#1f2933" font-family="Segoe UI, Arial, sans-serif" font-size="16">Fowler</text>
+</svg>

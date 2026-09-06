@@ -1,0 +1,119 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f4f4f4;
+  color: #222;
+}
+
+.site-header {
+  background-color: #1f2937;
+  color: #fff;
+  padding: 1.5rem 2rem;
+  text-align: center;
+}
+
+.site-header h1 {
+  margin: 0 0 0.25rem 0;
+}
+
+.site-header p {
+  margin: 0;
+  color: #cbd5e1;
+}
+
+main {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 1.5rem;
+}
+
+.status {
+  min-height: 1.5rem;
+  text-align: center;
+  font-weight: bold;
+  color: #444;
+}
+
+.catalog {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.book-card {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 1rem;
+  cursor: pointer;
+  transition: box-shadow 0.2s ease, transform 0.2s ease;
+}
+
+.book-card:hover {
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transform: translateY(-2px);
+}
+
+.book-card h3 {
+  margin: 0 0 0.5rem 0;
+  font-size: 1.05rem;
+}
+
+.book-card p {
+  margin: 0.25rem 0;
+  color: #555;
+  font-size: 0.9rem;
+}
+
+.book-card .price {
+  font-weight: bold;
+  color: #1f2937;
+}
+
+.book-detail {
+  position: fixed;
+  top: 0;
+  right: 0;
+  height: 100%;
+  width: 320px;
+  max-width: 90%;
+  background-color: #fff;
+  border-left: 1px solid #ddd;
+  box-shadow: -4px 0 12px rgba(0, 0, 0, 0.15);
+  padding: 1.5rem;
+  overflow-y: auto;
+}
+
+.book-detail.hidden {
+  display: none;
+}
+
+.close-btn {
+  background-color: #1f2937;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  margin-bottom: 1rem;
+}
+
+.close-btn:hover {
+  background-color: #374151;
+}
+
+#book-detail-content h2 {
+  margin-top: 0;
+}
+
+.site-footer {
+  text-align: center;
+  padding: 1rem;
+  color: #777;
+  font-size: 0.85rem;
+}

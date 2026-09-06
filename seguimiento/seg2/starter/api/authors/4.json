@@ -1,0 +1,24 @@
+{
+  "id": 4,
+  "name": "Steve Krug",
+  "photo": "imagenes/authors/krug.svg",
+  "photoAlt": "Retrato de marcador de Steve Krug",
+  "bio": "Autor de un texto breve sobre usabilidad en la web. Argumenta que la interfaz debe comprenderse sin instrucciones largas.",
+  "topics": "Escribe sobre usabilidad web, pruebas con usuarios reales y cómo dejar interfaces que se entienden sin un manual.",
+  "books": [
+    {
+      "id": 4,
+      "title": "Don't Make Me Think",
+      "cover": "imagenes/books/dont-make-me-think.svg",
+      "coverAlt": "Portada de marcador de Don't Make Me Think",
+      "synopsis": "Guía práctica de usabilidad web. Propone páginas que se entienden de un vistazo, con convenciones claras y menos texto de instrucción."
+    },
+    {
+      "id": 9,
+      "title": "Rocket Surgery Made Easy",
+      "cover": "imagenes/books/rocket-surgery-made-easy.svg",
+      "coverAlt": "Portada de marcador de Rocket Surgery Made Easy",
+      "synopsis": "Guía para pruebas de usabilidad de bajo costo. Describe cómo observar a unos pocos usuarios, anotar problemas y decidir qué arreglar primero."
+    }
+  ]
+}

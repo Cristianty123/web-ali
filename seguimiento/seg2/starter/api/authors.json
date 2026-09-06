@@ -1,0 +1,32 @@
+{
+  "authors": [
+    {
+      "id": 1,
+      "name": "Robert C. Martin",
+      "photo": "imagenes/authors/martin.svg",
+      "photoAlt": "Retrato de marcador de Robert C. Martin",
+      "topics": "Escribe con frecuencia sobre código limpio, el oficio del programador y una arquitectura donde las reglas de negocio no dependen de la interfaz ni de la base de datos."
+    },
+    {
+      "id": 2,
+      "name": "Marijn Haverbeke",
+      "photo": "imagenes/authors/haverbeke.svg",
+      "photoAlt": "Retrato de marcador de Marijn Haverbeke",
+      "topics": "Escribe sobre el lenguaje JavaScript, la programación en el navegador y el aprendizaje con programas de ejemplo."
+    },
+    {
+      "id": 3,
+      "name": "Martin Fowler",
+      "photo": "imagenes/authors/fowler.svg",
+      "photoAlt": "Retrato de marcador de Martin Fowler",
+      "topics": "Escribe sobre refactoring, patrones en aplicaciones empresariales y formas breves de comunicar diseño, incluido UML."
+    },
+    {
+      "id": 4,
+      "name": "Steve Krug",
+      "photo": "imagenes/authors/krug.svg",
+      "photoAlt": "Retrato de marcador de Steve Krug",
+      "topics": "Escribe sobre usabilidad web, pruebas con usuarios reales y cómo dejar interfaces que se entienden sin un manual."
+    }
+  ]
+}
