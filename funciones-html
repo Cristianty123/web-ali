@@ -1,0 +1,27 @@
+para buscar eventos
+
+event.target: saca el elemento html al que se le dio click
+.closest('.clase'): buscara el elemento mas cercano si no encuentra devuelve null mira hacia arriba
+.querySelector : busca el primer elemento que coincida con el selector CSS y mira hacia abajo con un . representa una clase y con # un id
+
+.some() el equivalente a contains de java
+
+.trim() quita los espacios al principio y al final de un string
+
+document.createElement('etiqueta') crea un elemento html
+elemento.appendChild(elementoHijo) agrega un elemento hijo a un elemento padre
+elemento.removeChild(elementoHijo) elimina un elemento hijo de un elemento padre
+elemento.replaceChild(elementoNuevo, elementoViejo) reemplaza un elemento hijo por otro
+
+.className: devuelve o establece el valor del atributo class de un elemento
+.classList: devuelve una colección de las clases de un elemento, permite agregar, eliminar o verificar clases de un elemento
+.classList.add('clase'): agrega una clase a un elemento
+.classList.remove('clase'): elimina una clase de un elemento
+
+dataset.id : devuelve o establece el valor del atributo data-id de un elemento
+
+textContent: devuelve o establece el contenido de texto de un elemento
+
+.slice(): devuelve una copia de una parte del array dentro de un nuevo array empezando por inicio hasta fin (fin no incluido) donde inicio y fin representan el índice de elementos en ese array. El array original no se modificará.
+
+.localeCompare(): devuelve un número negativo, cero o positivo dependiendo de si la cadena de texto de referencia es menor, igual o mayor que la cadena de texto comparada según el orden alfabético.

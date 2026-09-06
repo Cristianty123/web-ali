@@ -9,9 +9,16 @@ const statusEl = document.getElementById('status');
 
 //Carga la colección, dibuja la lista y usa #status para carga o error.
 async function loadDirectory() {
-  //TODO: await getAuthors, dibujar la lista, texto de carga o error en #status
+  statusEl.textContent = 'Cargando autores...';
 
-
+  try{
+    const authors = await getAuthors();
+    renderAuthorList(authors, authorsEl);
+    statusEl.textContent = '';
+  }catch(error){
+    console.log(error);
+    statusEl.textContent = 'Error al cargar los autores.';
+  }
 }
 
 loadDirectory();
@@ -19,8 +26,23 @@ loadDirectory();
 //Clic en tarjeta: closest .author-card, ocultar el panel, await getAuthorById, mostrar detalle.
 //Si el fetch de detalle falla, #status lo indica y la lista permanece.
 authorsEl.addEventListener('click', async (event) => {
-  //TODO: closest .author-card, ocultar el panel, await getAuthorById, mostrar detalle
-  //TODO: si el fetch de detalle falla, #status lo indica y la lista permanece
+  const card = event.target.closest('.author-card');
+
+  if(!card){
+    return;
+  }
+
+  detailEl.classList.add('hidden');
+
+  try{
+    const author = await getAuthorById(card.dataset.id);
+    showAuthorDetail(author, detailEl);
+    statusEl.textContent = '';
+
+  }catch (error){
+    console.log(error);
+    statusEl.textContent = 'Error al cargar el autor.';
+  }
 });
 
 //Clic en Cerrar: solo hideAuthorDetail.

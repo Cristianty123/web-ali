@@ -1,0 +1,103 @@
+<p> indica que esto es un parrafo
+<em> es para poner la letra inclinada pero indica que es una palabra acentuada
+<i> hace lo mismo que em
+<h1> los titulos
+<strong> es para poner la letra en negrilla
+<b> lo mismo que strong
+<a href="url"> se usa para que redireccione a un link
+<a href="#id"> ir a un id de la propia pagina
+<header> para el encabezado
+<footer> pie de pagina
+<main> contenido principal
+<article> para contenido independiente que podria extraerse y usarse en otra pagina y tendria sentido
+<section> para separar secciones que juntas se complementan
+
+<button type =button"> para crear un boton
+
+<aside> Usa <aside> cuando el contenido es un panel auxiliar que complementa a la página pero no exige la atención exclusiva e inmediata del usuario.
+
+<dialog> Usa <dialog> cuando necesitas interrumpir la tarea actual del usuario o presentar una interfaz que requiere una acción directa (confirmar, responder, completar un formulario emergente) antes de continuar.
+
+
+//comentarios
+
+<!-- comentario -->
+
+// lista (con ol se usan numeros  para enumerar listas ordenadas y ul viñetas osea listas desordenadas)
+
+<ol>
+  <li>Abrir el editor</li>
+  <li>Escribir el código</li>
+  <li>Guardar el archivo</li>
+</ol>
+
+//imagen no ocupa cerrar la etiqueta
+
+
+<figure> se usa para envolver imagenes un section exclusivo pa imagenes
+<img src="../images/front-page.png" alt="Portada del libro clean code">
+
+// para video
+
+<video controls width="320" src="https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4">
+        El navegador no reproduce video HTML5.
+        <a href="https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4">
+            Descargar el video
+        </a>
+    </video>
+
+
+// tabla
+
+Etiquetas de estructura semántica (<thead>, <tbody>, <tfoot>)
+
+Cuando las tablas crecen, no tiras los <tr> ahí sueltos. Los agrupas en tres secciones principales:
+
+    <thead>: Agrupa las filas del encabezado (los <th>).
+
+    <tbody>: Agrupa el cuerpo de la tabla (las filas con los datos <td>).
+
+    <tfoot>: Agrupa las filas del pie de página (por ejemplo, para mostrar totales o sumatorias).
+
+ejemplo
+
+<table>
+ <thead>
+     <tr>
+         <th>columna 1<\th>
+         <th>columna 2<\th>
+     <\tr>
+ <\thead>
+ <tbody>
+     <tr>
+         <td>columna 1 de la fila 2<\td>
+         <td>columna 2 de la fila 2<\td>
+     <\tr>
+     <tr>
+         <td>columna 1 de la fila 3<\td>
+         <td>columna 2 de la fila 3<\td>
+     <\tr>
+ <\tbody>
+ <tfoot>
+     <tr>
+         <td>total de algo<\td>
+         <td>numero total<\td>
+     <\tr>
+ <\tfoot>
+<\table>
+
+// lista para selecioar algo puedes quitar el optgroup es opciones y arriba poner un label <label for="value">Valor</label>
+
+<select id="from-unit">
+            <optgroup label="Temperatura">
+                <option value="celsius">°C</option>
+                <option value="fahrenheit">°F</option>
+            </optgroup>
+            <optgroup label="Longitud">
+                <option value="cm">cm</option>
+                <option value="m">m</option>
+            </optgroup>
+        </select>
+
+
+span es como un div pero no hace un salto de linea
