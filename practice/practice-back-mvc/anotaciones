@@ -1,0 +1,6 @@
+SQL
+
+.autoIncrement() : sirve para incrementar automaticamente un numero util para hacer ids solo sirve con integers
+.uniqueIndex() : sirve para crear un indice unico en la base de datos, esto significa que no se pueden repetir valores en esa columna
+.nullable() : sirve para permitir que una columna pueda tener valores nulos, es decir, que no tenga un valor asignado
+.default() : sirve para asignar un valor por defecto a una columna, es decir, si no se especifica un valor al insertar un registro, se asignara el valor por defecto
