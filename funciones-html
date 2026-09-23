@@ -25,3 +25,14 @@ textContent: devuelve o establece el contenido de texto de un elemento
 .slice(): devuelve una copia de una parte del array dentro de un nuevo array empezando por inicio hasta fin (fin no incluido) donde inicio y fin representan el índice de elementos en ese array. El array original no se modificará.
 
 .localeCompare(): devuelve un número negativo, cero o positivo dependiendo de si la cadena de texto de referencia es menor, igual o mayor que la cadena de texto comparada según el orden alfabético.
+
+//ejemplo de fetch
+
+const create = await fetch('http://localhost:3000/books',{
+    method: 'POST',
+    headers: {'Content-Type': 'application/json'},
+    body: JSON.stringify({ title: title, author: author, price: price }),
+  })
+
+
+  .value: sirve para obtener el valor de un input, select o textarea

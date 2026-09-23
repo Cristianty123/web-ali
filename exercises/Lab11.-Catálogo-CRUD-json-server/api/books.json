@@ -1,0 +1,52 @@
+{
+  "books": [
+    {
+      "id": 1,
+      "title": "Clean Code",
+      "author": "Robert C. Martin",
+      "price": 34.99
+    },
+    {
+      "id": 2,
+      "title": "The Pragmatic Programmer",
+      "author": "David Thomas, Andrew Hunt",
+      "price": 42.5
+    },
+    {
+      "id": 3,
+      "title": "Designing Data-Intensive Applications",
+      "author": "Martin Kleppmann",
+      "price": 49.99
+    },
+    {
+      "id": 4,
+      "title": "JavaScript: The Good Parts",
+      "author": "Douglas Crockford",
+      "price": 29.99
+    },
+    {
+      "id": 5,
+      "title": "Eloquent JavaScript",
+      "author": "Marijn Haverbeke",
+      "price": 0
+    },
+    {
+      "id": 6,
+      "title": "RESTful Web APIs",
+      "author": "Leonard Richardson, Mike Amundsen",
+      "price": 38
+    },
+    {
+      "id": 7,
+      "title": "Don't Make Me Think",
+      "author": "Steve Krug",
+      "price": 32
+    },
+    {
+      "id": 8,
+      "title": "Refactoring",
+      "author": "Martin Fowler",
+      "price": 47.99
+    }
+  ]
+}
